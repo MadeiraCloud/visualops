@@ -1,5 +1,0 @@
-%packager Thibault BRONCHAIN
-%_topdir /root/rpmbuild
-%_tmppath /root/rpmbuild/tmp
-%_smp_mflags  -j3
-%__arch_install_post   /usr/lib/rpm/check-rpaths   /usr/lib/rpm/check-buildroot
