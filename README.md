@@ -1,4 +1,4 @@
 visualops
 =======
 
-VisualOp deployment repo
+VisualOps deployment repo
