@@ -1,4 +1,4 @@
-madeira
+visualops
 =======
 
-Madeira deployment repo
+VisualOp deployment repo
