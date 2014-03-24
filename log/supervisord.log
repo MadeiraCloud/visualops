@@ -1,0 +1,758 @@
+2014-03-12 04:06:40,207 CRIT Supervisor running as root (no user in config file)
+2014-03-12 04:06:40,207 INFO Increased RLIMIT_NOFILE limit to 65535
+2014-03-12 04:06:40,207 INFO Increased RLIMIT_NPROC limit to 32000
+2014-03-12 04:06:40,655 INFO RPC interface 'supervisor' initialized
+2014-03-12 04:06:40,655 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2014-03-12 04:06:40,659 INFO daemonizing the supervisord process
+2014-03-12 04:06:40,661 INFO supervisord started with pid 8900
+2014-03-12 04:06:41,669 INFO spawned: 'gearman' with pid 8905
+2014-03-12 04:06:41,676 INFO spawned: 'redis' with pid 8906
+2014-03-12 04:06:41,692 INFO spawned: 'karajan' with pid 8907
+2014-03-12 04:06:41,707 INFO spawned: 'nginx' with pid 8908
+2014-03-12 04:06:41,724 INFO spawned: 'appservice_3' with pid 8909
+2014-03-12 04:06:41,744 INFO spawned: 'appservice_2' with pid 8910
+2014-03-12 04:06:42,135 INFO spawned: 'appservice_1' with pid 8911
+2014-03-12 04:06:42,218 INFO spawned: 'appservice_0' with pid 8912
+2014-03-12 04:06:42,288 INFO spawned: 'requestworker' with pid 8913
+2014-03-12 04:06:42,369 INFO spawned: 'scribe' with pid 8914
+2014-03-12 04:06:43,393 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:43,393 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:43,393 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:43,393 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:43,393 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:43,393 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:43,393 INFO success: scribe entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:44,989 INFO success: gearman entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2014-03-12 04:06:44,989 INFO success: redis entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2014-03-12 04:06:44,989 INFO success: nginx entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2014-03-12 04:06:44,996 INFO exited: redis (exit status 1; not expected)
+2014-03-12 04:06:45,031 INFO spawned: 'redis' with pid 8915
+2014-03-12 04:06:45,046 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:06:45,096 INFO spawned: 'appservice_3' with pid 8916
+2014-03-12 04:06:45,122 INFO exited: nginx (exit status 1; not expected)
+2014-03-12 04:06:45,122 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:06:45,176 INFO spawned: 'nginx' with pid 8917
+2014-03-12 04:06:45,196 INFO spawned: 'appservice_2' with pid 8918
+2014-03-12 04:06:45,197 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:06:45,582 INFO spawned: 'karajan' with pid 8919
+2014-03-12 04:06:45,599 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:06:45,647 INFO spawned: 'appservice_1' with pid 8920
+2014-03-12 04:06:45,659 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:06:45,714 INFO spawned: 'appservice_0' with pid 8922
+2014-03-12 04:06:46,026 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:06:46,058 INFO spawned: 'requestworker' with pid 8928
+2014-03-12 04:06:46,750 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:46,750 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:46,750 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:46,750 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:46,750 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:48,037 INFO success: redis entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2014-03-12 04:06:48,037 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:48,102 INFO exited: redis (exit status 1; not expected)
+2014-03-12 04:06:48,142 INFO spawned: 'redis' with pid 8932
+2014-03-12 04:06:48,150 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:06:48,307 INFO success: nginx entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2014-03-12 04:06:48,309 INFO spawned: 'appservice_3' with pid 8933
+2014-03-12 04:06:48,316 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:06:48,399 INFO spawned: 'appservice_2' with pid 8934
+2014-03-12 04:06:48,423 INFO exited: nginx (exit status 1; not expected)
+2014-03-12 04:06:48,576 INFO spawned: 'nginx' with pid 8935
+2014-03-12 04:06:48,582 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:06:48,672 INFO spawned: 'appservice_1' with pid 8936
+2014-03-12 04:06:48,679 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:06:48,711 INFO spawned: 'appservice_0' with pid 8938
+2014-03-12 04:06:48,712 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:06:49,048 INFO spawned: 'karajan' with pid 8939
+2014-03-12 04:06:49,058 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:06:50,061 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:50,061 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:50,061 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:50,083 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:50,083 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:50,302 INFO spawned: 'requestworker' with pid 8941
+2014-03-12 04:06:51,012 INFO exited: redis (exit status 1; not expected)
+2014-03-12 04:06:51,105 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:51,114 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:06:51,210 INFO spawned: 'appservice_3' with pid 8946
+2014-03-12 04:06:51,218 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:06:51,373 INFO spawned: 'appservice_2' with pid 8947
+2014-03-12 04:06:51,393 INFO exited: nginx (exit status 1; not expected)
+2014-03-12 04:06:51,448 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:06:51,462 INFO spawned: 'appservice_1' with pid 8948
+2014-03-12 04:06:51,467 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:06:51,809 INFO spawned: 'appservice_0' with pid 8949
+2014-03-12 04:06:51,812 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:06:52,537 INFO spawned: 'redis' with pid 8950
+2014-03-12 04:06:52,557 INFO spawned: 'karajan' with pid 8951
+2014-03-12 04:06:52,582 INFO spawned: 'nginx' with pid 8952
+2014-03-12 04:06:52,583 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:52,583 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:52,583 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:52,594 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:06:53,099 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:53,102 INFO spawned: 'requestworker' with pid 8954
+2014-03-12 04:06:53,111 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:06:53,357 INFO spawned: 'appservice_3' with pid 8956
+2014-03-12 04:06:53,358 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:06:53,457 INFO spawned: 'appservice_2' with pid 8957
+2014-03-12 04:06:53,465 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:06:54,028 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:54,030 INFO spawned: 'appservice_1' with pid 8958
+2014-03-12 04:06:54,037 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:06:54,428 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:54,430 INFO spawned: 'appservice_0' with pid 8959
+2014-03-12 04:06:54,431 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:54,461 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:55,209 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:55,216 INFO exited: redis (exit status 1; not expected)
+2014-03-12 04:06:55,325 INFO exited: nginx (exit status 1; not expected)
+2014-03-12 04:06:55,397 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:06:55,791 INFO spawned: 'karajan' with pid 8966
+2014-03-12 04:06:55,820 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:55,821 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:06:55,821 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:06:55,881 INFO spawned: 'appservice_3' with pid 8967
+2014-03-12 04:06:55,899 INFO spawned: 'requestworker' with pid 8968
+2014-03-12 04:06:55,910 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:06:56,322 INFO spawned: 'appservice_2' with pid 8969
+2014-03-12 04:06:56,325 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:06:56,624 INFO spawned: 'appservice_1' with pid 8970
+2014-03-12 04:06:56,634 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:06:56,837 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:56,839 INFO spawned: 'appservice_0' with pid 8971
+2014-03-12 04:06:56,881 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:56,882 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:57,902 INFO spawned: 'redis' with pid 8976
+2014-03-12 04:06:57,913 INFO spawned: 'nginx' with pid 8977
+2014-03-12 04:06:57,929 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:57,929 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:57,929 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:57,967 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:06:58,006 INFO spawned: 'appservice_3' with pid 8978
+2014-03-12 04:06:58,013 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:06:58,187 INFO spawned: 'karajan' with pid 8979
+2014-03-12 04:06:58,194 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:06:58,529 INFO spawned: 'requestworker' with pid 8980
+2014-03-12 04:06:58,540 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:06:58,848 INFO spawned: 'appservice_2' with pid 8981
+2014-03-12 04:06:58,854 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:06:59,108 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:06:59,110 INFO spawned: 'appservice_1' with pid 8982
+2014-03-12 04:06:59,116 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:00,118 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:00,118 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:00,118 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:00,122 INFO spawned: 'appservice_0' with pid 8983
+2014-03-12 04:07:00,132 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:00,480 INFO exited: redis (exit status 1; not expected)
+2014-03-12 04:07:00,497 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:00,545 INFO spawned: 'appservice_3' with pid 8984
+2014-03-12 04:07:00,574 INFO exited: nginx (exit status 1; not expected)
+2014-03-12 04:07:00,857 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:01,385 INFO spawned: 'karajan' with pid 8985
+2014-03-12 04:07:01,386 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:01,393 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:01,682 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:01,685 INFO spawned: 'requestworker' with pid 8986
+2014-03-12 04:07:01,691 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:07:01,730 INFO spawned: 'appservice_2' with pid 8987
+2014-03-12 04:07:01,754 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:07:02,756 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:02,756 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:02,760 INFO spawned: 'appservice_1' with pid 8988
+2014-03-12 04:07:02,760 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:02,963 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:02,990 INFO spawned: 'appservice_0' with pid 8989
+2014-03-12 04:07:02,993 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:03,686 INFO spawned: 'redis' with pid 8990
+2014-03-12 04:07:03,698 INFO spawned: 'nginx' with pid 8991
+2014-03-12 04:07:03,729 INFO spawned: 'appservice_3' with pid 8992
+2014-03-12 04:07:03,730 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:03,847 INFO spawned: 'karajan' with pid 8993
+2014-03-12 04:07:03,856 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:03,857 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:07:04,020 INFO spawned: 'appservice_2' with pid 8994
+2014-03-12 04:07:04,020 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:04,027 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:04,802 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:04,805 INFO spawned: 'requestworker' with pid 8995
+2014-03-12 04:07:04,815 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:07:05,048 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:05,048 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:05,051 INFO spawned: 'appservice_1' with pid 8996
+2014-03-12 04:07:05,059 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:06,028 INFO spawned: 'appservice_0' with pid 8997
+2014-03-12 04:07:06,029 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:06,038 INFO exited: redis (exit status 1; not expected)
+2014-03-12 04:07:06,051 INFO gave up: redis entered FATAL state, too many start retries too quickly
+2014-03-12 04:07:06,051 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:06,060 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:06,092 INFO spawned: 'appservice_3' with pid 8998
+2014-03-12 04:07:06,107 INFO exited: nginx (exit status 1; not expected)
+2014-03-12 04:07:06,306 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2014-03-12 04:07:06,308 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:07:06,321 INFO spawned: 'appservice_2' with pid 8999
+2014-03-12 04:07:06,330 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:06,999 INFO spawned: 'karajan' with pid 9000
+2014-03-12 04:07:07,007 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:07,100 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:07,101 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:07,122 INFO spawned: 'requestworker' with pid 9001
+2014-03-12 04:07:07,140 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:07:08,038 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:08,038 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:08,063 INFO spawned: 'appservice_1' with pid 9002
+2014-03-12 04:07:08,074 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:08,130 INFO spawned: 'appservice_3' with pid 9003
+2014-03-12 04:07:08,130 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:08,138 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:08,344 INFO spawned: 'appservice_0' with pid 9004
+2014-03-12 04:07:08,349 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:07:09,210 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:09,212 INFO spawned: 'appservice_2' with pid 9005
+2014-03-12 04:07:09,215 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:09,215 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:09,282 INFO spawned: 'karajan' with pid 9006
+2014-03-12 04:07:09,292 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:09,882 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:09,885 INFO spawned: 'requestworker' with pid 9007
+2014-03-12 04:07:09,890 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:07:09,931 INFO spawned: 'appservice_1' with pid 9008
+2014-03-12 04:07:09,937 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:10,190 INFO spawned: 'appservice_3' with pid 9009
+2014-03-12 04:07:10,202 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:10,940 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:10,940 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:10,940 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:10,943 INFO spawned: 'appservice_0' with pid 9010
+2014-03-12 04:07:10,953 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:10,957 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:07:11,178 INFO spawned: 'appservice_2' with pid 9011
+2014-03-12 04:07:11,185 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:11,676 INFO spawned: 'karajan' with pid 9012
+2014-03-12 04:07:11,677 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:11,687 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:07:11,768 INFO spawned: 'appservice_1' with pid 9013
+2014-03-12 04:07:11,770 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:11,908 INFO spawned: 'requestworker' with pid 9014
+2014-03-12 04:07:11,915 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:12,626 INFO spawned: 'appservice_3' with pid 9015
+2014-03-12 04:07:12,626 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:12,626 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:12,633 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:12,860 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:12,860 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:12,867 INFO spawned: 'appservice_0' with pid 9017
+2014-03-12 04:07:12,868 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:07:13,439 INFO spawned: 'appservice_2' with pid 9018
+2014-03-12 04:07:13,440 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:13,445 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:07:13,466 INFO spawned: 'appservice_1' with pid 9019
+2014-03-12 04:07:13,473 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:13,689 INFO spawned: 'karajan' with pid 9020
+2014-03-12 04:07:13,689 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:13,696 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:14,312 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:14,315 INFO spawned: 'requestworker' with pid 9021
+2014-03-12 04:07:14,322 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:14,548 INFO spawned: 'appservice_3' with pid 9022
+2014-03-12 04:07:14,553 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:14,554 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:14,554 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:15,109 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:15,112 INFO spawned: 'appservice_0' with pid 9023
+2014-03-12 04:07:15,124 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:07:15,143 INFO spawned: 'appservice_2' with pid 9024
+2014-03-12 04:07:15,148 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:07:15,468 INFO spawned: 'appservice_1' with pid 9025
+2014-03-12 04:07:15,468 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:15,475 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:16,094 INFO spawned: 'karajan' with pid 9026
+2014-03-12 04:07:16,095 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:16,105 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:16,225 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:16,226 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:16,228 INFO spawned: 'requestworker' with pid 9027
+2014-03-12 04:07:16,232 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:16,795 INFO spawned: 'appservice_3' with pid 9028
+2014-03-12 04:07:16,798 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:16,798 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:16,833 INFO spawned: 'appservice_0' with pid 9029
+2014-03-12 04:07:16,844 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:07:17,155 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:17,158 INFO spawned: 'appservice_2' with pid 9030
+2014-03-12 04:07:17,164 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:07:17,889 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:17,891 INFO spawned: 'appservice_1' with pid 9031
+2014-03-12 04:07:17,892 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:17,892 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:17,902 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:18,007 INFO spawned: 'karajan' with pid 9032
+2014-03-12 04:07:18,015 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:18,468 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:18,470 INFO spawned: 'requestworker' with pid 9033
+2014-03-12 04:07:18,475 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:18,507 INFO spawned: 'appservice_3' with pid 9034
+2014-03-12 04:07:18,514 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:18,827 INFO spawned: 'appservice_0' with pid 9035
+2014-03-12 04:07:18,837 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:07:19,562 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:19,562 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:19,571 INFO spawned: 'appservice_2' with pid 9037
+2014-03-12 04:07:19,572 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:19,572 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:19,572 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:07:19,782 INFO spawned: 'appservice_1' with pid 9038
+2014-03-12 04:07:19,791 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:20,234 INFO spawned: 'karajan' with pid 9040
+2014-03-12 04:07:20,241 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:20,242 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:20,338 INFO spawned: 'appservice_3' with pid 9041
+2014-03-12 04:07:20,349 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:20,559 INFO spawned: 'requestworker' with pid 9043
+2014-03-12 04:07:20,569 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:21,314 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:21,314 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:21,314 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:21,316 INFO spawned: 'appservice_0' with pid 9044
+2014-03-12 04:07:21,330 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:07:21,555 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:21,558 INFO spawned: 'appservice_2' with pid 9045
+2014-03-12 04:07:21,558 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:21,563 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:07:22,071 INFO spawned: 'appservice_1' with pid 9046
+2014-03-12 04:07:22,077 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:22,096 INFO spawned: 'appservice_3' with pid 9047
+2014-03-12 04:07:22,105 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:22,430 INFO spawned: 'karajan' with pid 9048
+2014-03-12 04:07:22,430 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:22,443 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:23,068 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:23,071 INFO spawned: 'requestworker' with pid 9049
+2014-03-12 04:07:23,079 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:23,079 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:23,324 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:23,327 INFO spawned: 'appservice_0' with pid 9050
+2014-03-12 04:07:23,336 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:07:23,831 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:23,834 INFO spawned: 'appservice_2' with pid 9051
+2014-03-12 04:07:23,842 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:07:23,860 INFO spawned: 'appservice_1' with pid 9052
+2014-03-12 04:07:23,871 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:24,318 INFO spawned: 'appservice_3' with pid 9054
+2014-03-12 04:07:24,319 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:24,328 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:24,938 INFO spawned: 'karajan' with pid 9055
+2014-03-12 04:07:24,942 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:24,943 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:24,943 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:24,943 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:25,071 INFO spawned: 'requestworker' with pid 9056
+2014-03-12 04:07:25,074 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:25,596 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:25,599 INFO spawned: 'appservice_0' with pid 9057
+2014-03-12 04:07:25,612 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:07:25,612 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:07:25,964 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:25,968 INFO spawned: 'appservice_2' with pid 9059
+2014-03-12 04:07:25,985 INFO spawned: 'appservice_1' with pid 9060
+2014-03-12 04:07:25,997 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:26,700 INFO spawned: 'appservice_3' with pid 9061
+2014-03-12 04:07:26,703 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:26,703 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:26,703 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:26,863 INFO spawned: 'karajan' with pid 9063
+2014-03-12 04:07:26,870 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:27,298 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:27,298 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:27,310 INFO spawned: 'requestworker' with pid 9064
+2014-03-12 04:07:27,311 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:27,824 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:27,827 INFO spawned: 'appservice_0' with pid 9065
+2014-03-12 04:07:27,853 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:07:27,864 INFO spawned: 'appservice_2' with pid 9066
+2014-03-12 04:07:27,900 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:27,900 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:07:27,917 INFO spawned: 'appservice_1' with pid 9067
+2014-03-12 04:07:28,767 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:28,774 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:28,992 INFO spawned: 'appservice_3' with pid 9072
+2014-03-12 04:07:28,993 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:28,993 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:28,993 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:29,003 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:29,366 INFO spawned: 'karajan' with pid 9073
+2014-03-12 04:07:29,377 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:29,683 INFO spawned: 'requestworker' with pid 9075
+2014-03-12 04:07:29,684 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:29,737 INFO spawned: 'appservice_0' with pid 9076
+2014-03-12 04:07:29,742 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:07:29,771 INFO spawned: 'appservice_2' with pid 9077
+2014-03-12 04:07:29,777 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:07:30,720 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:30,720 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:30,724 INFO spawned: 'appservice_1' with pid 9078
+2014-03-12 04:07:30,725 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:30,736 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:30,737 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:31,236 INFO spawned: 'appservice_3' with pid 9079
+2014-03-12 04:07:31,239 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:31,239 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:31,488 INFO spawned: 'karajan' with pid 9080
+2014-03-12 04:07:31,495 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:31,522 INFO spawned: 'appservice_0' with pid 9081
+2014-03-12 04:07:31,528 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:07:31,588 INFO spawned: 'appservice_2' with pid 9083
+2014-03-12 04:07:31,589 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:32,439 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:32,439 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:32,443 INFO spawned: 'requestworker' with pid 9085
+2014-03-12 04:07:32,444 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:07:32,903 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:32,903 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:32,906 INFO spawned: 'appservice_1' with pid 9086
+2014-03-12 04:07:32,906 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:32,913 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:33,184 INFO spawned: 'appservice_3' with pid 9087
+2014-03-12 04:07:33,193 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:33,262 INFO spawned: 'appservice_0' with pid 9088
+2014-03-12 04:07:33,275 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:07:33,294 INFO spawned: 'appservice_2' with pid 9089
+2014-03-12 04:07:33,307 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:34,251 INFO spawned: 'karajan' with pid 9090
+2014-03-12 04:07:34,254 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:34,254 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:34,254 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:34,255 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:34,593 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:34,593 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:34,597 INFO spawned: 'requestworker' with pid 9091
+2014-03-12 04:07:34,606 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:07:34,880 INFO spawned: 'appservice_1' with pid 9093
+2014-03-12 04:07:34,881 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:34,936 INFO spawned: 'appservice_3' with pid 9094
+2014-03-12 04:07:34,943 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:34,964 INFO spawned: 'appservice_0' with pid 9095
+2014-03-12 04:07:34,968 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:07:35,969 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:35,969 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:35,973 INFO spawned: 'appservice_2' with pid 9096
+2014-03-12 04:07:36,175 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:36,175 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:36,176 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:36,176 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:36,421 INFO spawned: 'karajan' with pid 9097
+2014-03-12 04:07:36,423 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:36,576 INFO spawned: 'requestworker' with pid 9098
+2014-03-12 04:07:36,581 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:07:36,637 INFO spawned: 'appservice_1' with pid 9099
+2014-03-12 04:07:36,642 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:36,665 INFO spawned: 'appservice_3' with pid 9100
+2014-03-12 04:07:36,671 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:37,672 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:37,672 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:37,672 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:37,672 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:37,676 INFO spawned: 'appservice_0' with pid 9101
+2014-03-12 04:07:37,676 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:37,712 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:07:38,250 INFO spawned: 'appservice_2' with pid 9102
+2014-03-12 04:07:38,257 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:38,340 INFO spawned: 'karajan' with pid 9103
+2014-03-12 04:07:38,347 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:07:38,365 INFO spawned: 'appservice_1' with pid 9105
+2014-03-12 04:07:38,376 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:38,425 INFO spawned: 'appservice_3' with pid 9106
+2014-03-12 04:07:38,435 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:39,373 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:39,373 INFO success: appservice_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:39,373 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:39,373 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:39,377 INFO spawned: 'requestworker' with pid 9108
+2014-03-12 04:07:39,386 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:40,025 INFO success: appservice_3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:40,029 INFO spawned: 'appservice_0' with pid 9111
+2014-03-12 04:07:40,041 INFO exited: appservice_2 (exit status 127; not expected)
+2014-03-12 04:07:40,156 INFO spawned: 'appservice_2' with pid 9112
+2014-03-12 04:07:40,174 INFO exited: appservice_1 (exit status 127; not expected)
+2014-03-12 04:07:40,247 INFO spawned: 'appservice_1' with pid 9113
+2014-03-12 04:07:40,260 INFO exited: appservice_3 (exit status 127; not expected)
+2014-03-12 04:07:40,323 INFO spawned: 'appservice_3' with pid 9114
+2014-03-12 04:07:40,336 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:40,794 INFO spawned: 'karajan' with pid 9115
+2014-03-12 04:07:40,805 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:41,630 INFO success: appservice_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:41,630 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:41,635 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:42,045 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:42,049 INFO spawned: 'requestworker' with pid 9117
+2014-03-12 04:07:42,054 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:42,075 INFO spawned: 'appservice_0' with pid 9118
+2014-03-12 04:07:42,190 INFO stopped: appservice_2 (exit status 127)
+2014-03-12 04:07:42,243 INFO stopped: appservice_1 (exit status 127)
+2014-03-12 04:07:42,282 INFO stopped: appservice_3 (exit status 127)
+2014-03-12 04:07:42,564 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:42,957 INFO spawned: 'karajan' with pid 9119
+2014-03-12 04:07:42,970 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:43,028 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:07:43,361 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:07:44,366 INFO spawned: 'karajan' with pid 9124
+2014-03-12 04:07:44,376 INFO spawned: 'appservice_0' with pid 9125
+2014-03-12 04:07:44,387 INFO spawned: 'requestworker' with pid 9126
+2014-03-12 04:07:45,376 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:45,376 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:45,380 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:45,382 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:45,423 INFO spawned: 'appservice_0' with pid 9127
+2014-03-12 04:07:45,427 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:45,435 INFO spawned: 'karajan' with pid 9128
+2014-03-12 04:07:45,439 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:46,102 INFO spawned: 'requestworker' with pid 9130
+2014-03-12 04:07:46,103 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:46,160 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:07:46,489 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:07:47,496 INFO spawned: 'karajan' with pid 9131
+2014-03-12 04:07:47,510 INFO spawned: 'appservice_0' with pid 9132
+2014-03-12 04:07:47,517 INFO spawned: 'requestworker' with pid 9133
+2014-03-12 04:07:48,524 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:48,524 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:48,524 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:48,544 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:48,598 INFO spawned: 'appservice_0' with pid 9134
+2014-03-12 04:07:48,603 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:48,614 INFO spawned: 'karajan' with pid 9135
+2014-03-12 04:07:48,620 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:49,290 INFO spawned: 'requestworker' with pid 9136
+2014-03-12 04:07:49,298 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:49,354 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:07:49,683 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:07:50,689 INFO spawned: 'karajan' with pid 9137
+2014-03-12 04:07:50,701 INFO spawned: 'appservice_0' with pid 9138
+2014-03-12 04:07:50,717 INFO spawned: 'requestworker' with pid 9139
+2014-03-12 04:07:51,711 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:51,711 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:51,711 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:51,717 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:51,760 INFO spawned: 'appservice_0' with pid 9140
+2014-03-12 04:07:51,765 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:51,773 INFO spawned: 'karajan' with pid 9141
+2014-03-12 04:07:51,779 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:52,468 INFO spawned: 'requestworker' with pid 9150
+2014-03-12 04:07:52,478 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:52,539 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:07:52,880 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:07:53,884 INFO spawned: 'karajan' with pid 9161
+2014-03-12 04:07:53,887 INFO spawned: 'appservice_0' with pid 9162
+2014-03-12 04:07:53,897 INFO spawned: 'requestworker' with pid 9163
+2014-03-12 04:07:54,897 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:54,897 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:54,897 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:54,901 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:54,936 INFO spawned: 'appservice_0' with pid 9164
+2014-03-12 04:07:54,938 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:54,951 INFO spawned: 'karajan' with pid 9165
+2014-03-12 04:07:54,956 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:55,621 INFO spawned: 'requestworker' with pid 9166
+2014-03-12 04:07:55,626 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:55,685 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:07:56,020 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:07:57,025 INFO spawned: 'karajan' with pid 9180
+2014-03-12 04:07:57,034 INFO spawned: 'appservice_0' with pid 9181
+2014-03-12 04:07:57,047 INFO spawned: 'requestworker' with pid 9182
+2014-03-12 04:07:58,037 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:58,037 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:58,037 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:07:58,045 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:58,080 INFO spawned: 'appservice_0' with pid 9183
+2014-03-12 04:07:58,084 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:07:58,094 INFO spawned: 'karajan' with pid 9184
+2014-03-12 04:07:58,100 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:07:58,754 INFO spawned: 'requestworker' with pid 9185
+2014-03-12 04:07:58,756 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:07:58,804 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:07:59,129 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:08:00,133 INFO spawned: 'karajan' with pid 9186
+2014-03-12 04:08:00,139 INFO spawned: 'appservice_0' with pid 9187
+2014-03-12 04:08:00,150 INFO spawned: 'requestworker' with pid 9188
+2014-03-12 04:08:01,157 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:01,157 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:01,157 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:01,173 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:01,214 INFO spawned: 'appservice_0' with pid 9189
+2014-03-12 04:08:01,218 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:08:01,231 INFO spawned: 'karajan' with pid 9190
+2014-03-12 04:08:01,240 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:08:01,890 INFO spawned: 'requestworker' with pid 9191
+2014-03-12 04:08:01,892 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:01,951 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:08:02,275 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:08:03,281 INFO spawned: 'karajan' with pid 9192
+2014-03-12 04:08:03,292 INFO spawned: 'appservice_0' with pid 9193
+2014-03-12 04:08:03,313 INFO spawned: 'requestworker' with pid 9194
+2014-03-12 04:08:04,319 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:04,319 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:04,319 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:04,335 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:04,385 INFO spawned: 'appservice_0' with pid 9195
+2014-03-12 04:08:04,389 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:08:04,393 INFO spawned: 'requestworker' with pid 9196
+2014-03-12 04:08:04,400 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:08:05,074 INFO spawned: 'karajan' with pid 9197
+2014-03-12 04:08:05,082 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:05,142 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:08:05,479 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:08:06,484 INFO spawned: 'karajan' with pid 9206
+2014-03-12 04:08:06,490 INFO spawned: 'appservice_0' with pid 9207
+2014-03-12 04:08:06,508 INFO spawned: 'requestworker' with pid 9208
+2014-03-12 04:08:07,515 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:07,515 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:07,515 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:07,540 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:07,598 INFO spawned: 'appservice_0' with pid 9209
+2014-03-12 04:08:07,604 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:08:07,632 INFO spawned: 'karajan' with pid 9210
+2014-03-12 04:08:07,640 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:08:08,301 INFO spawned: 'requestworker' with pid 9211
+2014-03-12 04:08:08,308 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:08,374 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:08:08,708 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:08:09,713 INFO spawned: 'karajan' with pid 9212
+2014-03-12 04:08:09,723 INFO spawned: 'appservice_0' with pid 9213
+2014-03-12 04:08:09,739 INFO spawned: 'requestworker' with pid 9214
+2014-03-12 04:08:10,743 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:10,743 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:10,743 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:10,817 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:10,862 INFO spawned: 'appservice_0' with pid 9215
+2014-03-12 04:08:10,866 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:08:10,878 INFO spawned: 'requestworker' with pid 9216
+2014-03-12 04:08:10,883 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:08:11,582 INFO spawned: 'karajan' with pid 9217
+2014-03-12 04:08:11,587 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:11,666 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:08:12,054 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:08:13,059 INFO spawned: 'karajan' with pid 9218
+2014-03-12 04:08:13,068 INFO spawned: 'appservice_0' with pid 9219
+2014-03-12 04:08:13,081 INFO spawned: 'requestworker' with pid 9220
+2014-03-12 04:08:14,089 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:14,089 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:14,089 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:14,170 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:08:14,173 INFO spawned: 'requestworker' with pid 9221
+2014-03-12 04:08:14,175 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:08:14,183 INFO spawned: 'karajan' with pid 9222
+2014-03-12 04:08:14,184 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:14,917 INFO spawned: 'appservice_0' with pid 9223
+2014-03-12 04:08:14,922 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:08:14,926 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:08:15,340 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:16,347 INFO spawned: 'karajan' with pid 9224
+2014-03-12 04:08:16,363 INFO spawned: 'appservice_0' with pid 9225
+2014-03-12 04:08:16,381 INFO spawned: 'requestworker' with pid 9226
+2014-03-12 04:08:17,383 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:17,383 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:17,383 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:17,400 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:17,437 INFO spawned: 'appservice_0' with pid 9227
+2014-03-12 04:08:17,441 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:08:17,447 INFO spawned: 'karajan' with pid 9228
+2014-03-12 04:08:17,450 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:08:18,126 INFO spawned: 'requestworker' with pid 9229
+2014-03-12 04:08:18,133 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:18,207 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:08:18,590 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:08:19,595 INFO spawned: 'karajan' with pid 9230
+2014-03-12 04:08:19,607 INFO spawned: 'appservice_0' with pid 9231
+2014-03-12 04:08:19,627 INFO spawned: 'requestworker' with pid 9232
+2014-03-12 04:08:20,629 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:20,630 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:20,630 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:20,665 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:20,715 INFO spawned: 'appservice_0' with pid 9233
+2014-03-12 04:08:20,719 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:08:20,742 INFO spawned: 'karajan' with pid 9234
+2014-03-12 04:08:20,748 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:08:21,404 INFO spawned: 'requestworker' with pid 9235
+2014-03-12 04:08:21,411 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:21,479 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:08:21,804 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:08:22,809 INFO spawned: 'karajan' with pid 9236
+2014-03-12 04:08:22,818 INFO spawned: 'appservice_0' with pid 9237
+2014-03-12 04:08:22,837 INFO spawned: 'requestworker' with pid 9238
+2014-03-12 04:08:23,825 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:23,826 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:23,826 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:23,833 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:23,875 INFO spawned: 'appservice_0' with pid 9239
+2014-03-12 04:08:23,879 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:08:23,887 INFO spawned: 'karajan' with pid 9240
+2014-03-12 04:08:23,891 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:08:24,543 INFO spawned: 'requestworker' with pid 9241
+2014-03-12 04:08:24,547 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:24,594 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:08:24,923 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:08:25,929 INFO spawned: 'karajan' with pid 9242
+2014-03-12 04:08:25,937 INFO spawned: 'appservice_0' with pid 9243
+2014-03-12 04:08:25,953 INFO spawned: 'requestworker' with pid 9244
+2014-03-12 04:08:26,936 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:26,936 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:26,940 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:26,981 INFO spawned: 'appservice_0' with pid 9245
+2014-03-12 04:08:26,982 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:26,985 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:08:26,996 INFO spawned: 'karajan' with pid 9246
+2014-03-12 04:08:27,000 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:08:27,652 INFO spawned: 'requestworker' with pid 9247
+2014-03-12 04:08:27,656 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:27,711 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:08:28,031 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:08:29,037 INFO spawned: 'karajan' with pid 9248
+2014-03-12 04:08:29,047 INFO spawned: 'appservice_0' with pid 9249
+2014-03-12 04:08:29,062 INFO spawned: 'requestworker' with pid 9250
+2014-03-12 04:08:30,049 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:30,049 INFO success: appservice_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:30,049 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:30,058 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:30,115 INFO spawned: 'appservice_0' with pid 9251
+2014-03-12 04:08:30,121 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:08:30,151 INFO spawned: 'karajan' with pid 9253
+2014-03-12 04:08:30,154 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:08:30,828 INFO spawned: 'requestworker' with pid 9254
+2014-03-12 04:08:30,836 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:30,898 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:08:31,240 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:08:32,246 INFO spawned: 'karajan' with pid 9255
+2014-03-12 04:08:32,256 INFO spawned: 'appservice_0' with pid 9256
+2014-03-12 04:08:32,272 INFO spawned: 'requestworker' with pid 9257
+2014-03-12 04:08:33,244 INFO success: karajan entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:33,245 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:33,291 INFO success: requestworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-03-12 04:08:33,295 INFO exited: karajan (exit status 2; expected)
+2014-03-12 04:08:33,301 INFO spawned: 'karajan' with pid 9258
+2014-03-12 04:08:33,303 INFO exited: requestworker (exit status 2; expected)
+2014-03-12 04:08:33,657 INFO spawned: 'requestworker' with pid 9259
+2014-03-12 04:08:33,659 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:08:34,011 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:08:35,017 INFO spawned: 'karajan' with pid 9260
+2014-03-12 04:08:35,027 INFO spawned: 'requestworker' with pid 9261
+2014-03-12 04:08:35,725 INFO spawned: 'appservice_0' with pid 9262
+2014-03-12 04:08:35,729 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:08:35,734 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:08:36,063 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:38,069 INFO spawned: 'karajan' with pid 9263
+2014-03-12 04:08:38,080 INFO spawned: 'requestworker' with pid 9264
+2014-03-12 04:08:38,771 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:08:38,774 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:08:39,780 INFO spawned: 'appservice_0' with pid 9265
+2014-03-12 04:08:40,156 INFO exited: appservice_0 (exit status 127; not expected)
+2014-03-12 04:08:41,158 INFO gave up: appservice_0 entered FATAL state, too many start retries too quickly
+2014-03-12 04:08:42,162 INFO spawned: 'karajan' with pid 9266
+2014-03-12 04:08:42,173 INFO spawned: 'requestworker' with pid 9267
+2014-03-12 04:08:42,872 INFO exited: requestworker (exit status 2; not expected)
+2014-03-12 04:08:42,873 INFO gave up: requestworker entered FATAL state, too many start retries too quickly
+2014-03-12 04:08:42,874 INFO exited: karajan (exit status 2; not expected)
+2014-03-12 04:08:43,876 INFO gave up: karajan entered FATAL state, too many start retries too quickly
+2014-03-12 04:15:57,211 INFO waiting for gearman, scribe to die
+2014-03-12 04:15:57,211 INFO stopped: scribe (terminated by SIGTERM)
+2014-03-12 04:16:00,219 INFO waiting for gearman to die
+2014-03-12 04:16:01,226 INFO stopped: gearman (exit status 0)
