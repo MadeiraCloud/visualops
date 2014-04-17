@@ -20,6 +20,8 @@ ws_endpoint:
 encrypt_key:
 encrypt_user:
 domain:
+gpg_key:
+intercom_key:
 
 # ============================= #
 #       AWS						#
