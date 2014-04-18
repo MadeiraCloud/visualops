@@ -43,6 +43,13 @@ server {
                 root   html;
                 allow all;
         }
+
+        error_page 404 /404;
+        location = /404 {
+                alias /visualops/site/ide/;
+                index 404.html;
+        }
+
         location = /favicon.ico {
                                                                 root /visualops/site/global/;
                 index favicon.ico;
