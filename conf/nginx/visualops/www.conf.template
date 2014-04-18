@@ -44,10 +44,9 @@ server {
                 allow all;
         }
 
-        error_page 404 /404;
-        location = /404 {
-                alias /visualops/site/ide/;
-                index 404.html;
+        error_page 404 /404.html;
+        location = /404.html {
+                root /visualops/site/ide/;
         }
 
         location = /favicon.ico {
@@ -93,6 +92,16 @@ server {
         location /faq {
                 alias /visualops/site/www/;
                 index faq.html;
+        }
+
+        location /contact {
+                alias /visualops/site/www/;
+                index contact.html;
+        }
+
+        location /press {
+                alias /visualops/site/www/;
+                index press.html;
         }
 
 }
